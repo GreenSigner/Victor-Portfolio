@@ -396,7 +396,7 @@ html, body {
   }
   .site-navigation .navbar-toggle .icon-bar {
     position: relative;
-    background-color: #1F2122;
+    background-color: #ffffff;
     transition: top 0.25s ease-in-out;
     -moz-transition: top 0.25s ease-in-out;
     -webkit-transition: top 0.25s ease-in-out;
@@ -638,12 +638,12 @@ html, body {
 .section-subtitle span {
   position: relative;
 }
-/*??*/
+/*Lineas que se ponen entre los subitulos*/
 .section-subtitle span:before, .section-subtitle span:after {
   display: inline-block;
   content: '';
   height: 1px;
-  background-color: #1F2122;
+  background-color: #c5c5c5;
   width: 20px;
   position: absolute;
   top: 50%;
@@ -1544,7 +1544,7 @@ html, body {
 /* Section: History */
 .section-history {
   padding: 70px 0;
-  background-color: #1F2122;
+  background-color: #3F4446;
 }
 .section-history .section-diff-title h2 {
   color: #ffffff;
@@ -1629,7 +1629,7 @@ html, body {
 }
 
 .timeline > li > .timeline-panel .timeline-heading {
-  background-color: #1F2122;
+  background-color: #3F4446;
   line-height: 50px;
   height: 50px;
 }
@@ -1639,7 +1639,7 @@ html, body {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0;
-  color: #1F2122;
+  color: #ffffff;
 }
 
 .timeline > li > .timeline-panel .timeline-heading .timeline-date,
@@ -1649,17 +1649,18 @@ html, body {
 
 .timeline > li > .timeline-panel .timeline-heading .timeline-date {
   padding: 0 10px;
-  background-color: #202D10;
+  background-color: #161718;
 }
 
 .timeline > li > .timeline-panel .timeline-heading .timeline-position {
   padding-left: 5px;
 }
-
+/*fondo cajas history*/
 .timeline > li > .timeline-panel .timeline-body {
   position: relative;
   padding: 20px 0;
   min-height: 140px;
+  background-color: #161718;
 }
 
 .timeline > li > .timeline-panel .timeline-body .timeline-body-thumb {
@@ -1694,7 +1695,7 @@ html, body {
 
 .timeline > li.timeline-inverted .timeline-panel {
   float: right;
-  padding: 0 0 0 10px;
+  background-color: #161718;
 }
 
 .timeline > li.timeline-inverted .timeline-panel .timeline-position {
@@ -1756,7 +1757,6 @@ html, body {
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: left;
-    padding: 0 10px 0 0;
   }
   .timeline > li.timeline-inverted > .timeline-panel:before {
     left: auto;
